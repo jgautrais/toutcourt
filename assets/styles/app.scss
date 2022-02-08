@@ -28,3 +28,18 @@
 .hour-selected {
     @apply bg-green-200 text-green-800 border-2 border-green-500;
 }
+
+.bg-green-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+}
+
+.border-yellow-200 {
+    --tw-border-opacity: 1;
+    border-color: rgba(253, 230, 138, var(--tw-border-opacity));
+}
+
+.text-green-700 {
+    --tw-text-opacity: 1;
+    color: rgba(4, 120, 87, var(--tw-text-opacity));
+}
