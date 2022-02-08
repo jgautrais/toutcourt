@@ -1,5 +1,11 @@
 # Tout court - Symfony 5.\*
 
+## Project
+
+Tout court was built during a 3-days final exam at Wild Code School. It reproduces as simple tennis court booking system.
+In order to reduce complexity, it was assumed for this project that all court are open 7 days per week, from 9am to 23pm. Each booking slot is 1 hour long.
+The project is built with Symfony 5. Data is handled with mySQL DB and the application is styled using Tailwind CSS framework.
+
 ## Presentation
 
 This starter kit is here to easily start a repository for Wild Code School students.
