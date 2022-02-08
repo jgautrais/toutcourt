@@ -1,4 +1,4 @@
-# Project 3 - Starter Kit - Symfony 5.\*
+# Tout court - Symfony 5.\*
 
 ## Presentation
 
@@ -32,7 +32,7 @@ It's symfony website-skeleton project with some additional library (webpack, fix
 2. Run `composer install`
 3. Run `yarn install`
 4. Run `yarn encore dev` to build assets
-5. Run `php bin/console d:d:c` to create DB (configure `DATABASE_URL` in your .env.local, set db_name to **checkpoint4**)
+5. Run `php bin/console d:d:c` to create DB (configure `DATABASE_URL` in your .env.local, set db_name to **toutcourt**)
 6. Run `php bin/console d:m:m` to execute migrations
 7. Run `php bin/console d:f:l` to load fixtures
 8. Configure your `MAILER_DSN` and `MAILER_FROM_ADDRESS` in your .env.local (Mailtrap was used for development)
@@ -55,17 +55,6 @@ It's symfony website-skeleton project with some additional library (webpack, fix
 If you develop on Windows, you should edit you git configuration to change your end of line rules with this command :
 
 `git config --global core.autocrlf true`
-
-## Deployment
-
-Some files are used to manage automatic deployments (using tools as Caprover, Docker and Github Action). Please do not modify them.
-
--   [captain-definition](https://github.com/WildCodeSchool/sf4-pjt3-starter-kit/blob/master/captain-definition) Caprover entry point
--   [Dockerfile](https://github.com/WildCodeSchool/sf4-pjt3-starter-kit/blob/master/Dockerfile) Web app configuration for Docker container
--   [docker-compose.yml](https://github.com/WildCodeSchool/sf4-pjt3-starter-kit/blob/master/docker-compose.yml) ...not use it's used 😅
--   [docker-entry.sh](https://github.com/WildCodeSchool/sf4-pjt3-starter-kit/blob/master/docker-entry.sh) shell instruction to execute when docker image is built
--   [nginx.conf](https://github.com/WildCodeSchool/sf4-pjt3-starter-kit/blob/master/nginx.conf) Nginx server configuration
--   [php.ini](https://github.com/WildCodeSchool/sf4-pjt3-starter-kit/blob/master/php.ini) Php configuration
 
 ## Built With
 
