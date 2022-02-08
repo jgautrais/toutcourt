@@ -13,7 +13,7 @@ class CourtFixtures extends Fixture
         [2, 'Court Suzanne Lenglen', 'grass', false],
         [3, 'Court Simonne Mathieu', 'hard', true],
         [4, 'Court Central', 'clay', false],
-        [5, 'Court extérieur n°5', 'hard', false]
+        [5, 'Court n', 'hard', false]
     ];
 
     public function load(ObjectManager $manager): void
